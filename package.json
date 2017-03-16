@@ -1,0 +1,24 @@
+{
+  "name": "fms-s3-backup-sync",
+  "version": "0.0.1",
+  "description": "syncs filemaker server backups to s3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geistinteractive/fms-s3-backup-sync.git"
+  },
+  "author": "Todd Geist <todd@geistinteractive.com> (http://www.geisintertactive.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geistinteractive/fms-s3-backup-sync/issues"
+  },
+  "homepage": "https://github.com/geistinteractive/fms-s3-backup-sync#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "node-schedule": "^1.2.1",
+    "s3": "^4.4.0"
+  }
+}
